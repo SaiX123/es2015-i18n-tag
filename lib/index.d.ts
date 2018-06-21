@@ -31,7 +31,7 @@ declare module 'es2015-i18n-tag' {
         /**
          * Whether to use grouping separators, such as thousands separators or thousand/lakh/crore separators. The default is true.
          */
-        useGrouping?: boolean = true,
+        useGrouping?: boolean,
         /**
          * The minimum number of integer digits to use. Possible values are from 1 to 21; the default is 1.
          */
